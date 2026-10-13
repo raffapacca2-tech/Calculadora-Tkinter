@@ -1,80 +1,169 @@
 # 🧮 Calculadora-Tkinter
 
-\<p align="center">
-&#x20; Uma calculadora desenvolvida em Python com uma interface gráfica simples, intuitiva e interativa.
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white](https://img.shields.io/badge/Python-3-blue?logo=python\&logoColor=white)" alt="Python 3">
-&#x20; \<img src="[https://img.shields.io/badge/Interface-Tkinter-orange](https://img.shields.io/badge/Interface-Tkinter-orange)" alt="Tkinter">
-&#x20; \<img src="[https://img.shields.io/badge/Status-Concluído-brightgreen](https://img.shields.io/badge/Status-Concluído-brightgreen)" alt="Status">
-\</p>
+Uma calculadora desenvolvida em **Python** utilizando a biblioteca **Tkinter** para realizar operações matemáticas através de uma interface gráfica interativa.
 
 ---
 
-## 💡 Sobre o projeto
+## 📖 Sobre o Projeto
 
-O **Calculadora-Tkinter** é um projeto desenvolvido para praticar lógica de programação e aprender a criar interfaces gráficas utilizando Python.
+Este projeto foi desenvolvido com o objetivo de praticar os principais conceitos da linguagem Python:
 
-A aplicação permite realizar cálculos matemáticos por meio de botões interativos, oferecendo uma experiência simples e fácil de utilizar.
+- Criação de interfaces gráficas
+- Utilização de funções
+- Estruturas condicionais
+- Manipulação de strings
+- Tratamento de exceções
+- Organização de código
+- Lógica de programação
 
-## ⚡ Funcionalidades
+---
 
-- ➕ Adição
-- ➖ Subtração
-- ✖️ Multiplicação
-- ➗ Divisão
-- 🔢 Suporte a números decimais
-- 🧹 Limpeza do visor
-- ⌫ Exclusão do último caractere
-- 🛡️ Tratamento de erros e divisão por zero
+## ✨ Funcionalidades
 
-## 🛠️ Tecnologias
+- ✅ Adição
+- ✅ Subtração
+- ✅ Multiplicação
+- ✅ Divisão
+- ✅ Operações com números decimais
+- ✅ Visor para exibição dos cálculos
+- ✅ Botão para limpar o visor
+- ✅ Função para apagar o último caractere
+- ✅ Tratamento de expressões inválidas
+- ✅ Verificação de divisão por zero
+- ✅ Interface gráfica com botões interativos
 
-|  Tecnologia | Utilização             |
-| :---------: | ---------------------- |
-| 🐍 Python 3 | Lógica e funcionamento |
-| 🖥️ Tkinter | Interface gráfica      |
+---
 
-## 🚀 Como executar
+## 🛠️ Tecnologias Utilizadas
 
-**1. Clone o repositório**
+- Python 3
+- Tkinter
+
+---
+
+## 📦 Bibliotecas
+
+O projeto utiliza o **Tkinter**, biblioteca do Python para criação de interfaces gráficas.
+
+Em algumas distribuições Linux, pode ser necessário instalar o Tkinter separadamente.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+📦 Calculadora-Tkinter
+│
+├── calculadora.py
+└── README.md
+```
+
+---
+
+## 🧠 Conceitos Aplicados
+
+### Funções
+
+- Criação de funções para operações matemáticas
+- Reutilização de código
+- Organização das funcionalidades
+
+### Estruturas Condicionais
+
+- `if`
+- `elif`
+- `else`
+
+### Manipulação de Strings
+
+- `split()`
+- `get()`
+- `insert()`
+- `delete()`
+
+### Tratamento de Exceções
+
+- `try`
+- `except`
+
+### Interface Gráfica
+
+- Criação de janelas com `Tkinter`
+- Botões interativos com `Button`
+- Campo de entrada com `Entry`
+- Organização dos elementos com `grid()`
+
+---
+
+## 🚀 Como Executar
+
+### Clone o repositório
 
 ```bash
 git clone https://github.com/SEU-USUARIO/Calculadora-Tkinter.git
 ```
 
-**2. Acesse a pasta**
+### Entre na pasta
 
 ```bash
 cd Calculadora-Tkinter
 ```
 
-**3. Execute o programa**
+### Execute o programa
 
 ```bash
-python3 calculadoratkinter.py
+python3 calculadora.py
 ```
 
-> **Nota:** o Tkinter já vem incluído na maioria das instalações do Python. O nome `calculadora.py` deve corresponder ao arquivo utilizado no projeto.
+*Caso seu arquivo tenha outro nome, substitua `calculadora.py` pelo nome correto.*
 
-## 📚 O que pratiquei
+---
 
-Durante o desenvolvimento, trabalhei com:
+## 💻 Operações Disponíveis
 
-- Funções e estruturas condicionais
-- Manipulação de strings
+| Símbolo | Operação |
+|:---:|---|
+| `+` | Adição |
+| `-` | Subtração |
+| `*` | Multiplicação |
+| `/` | Divisão |
+| `.` | Números decimais |
+| `C` | Limpar o visor |
+| `⌫` | Apagar o último caractere |
+| `=` | Calcular o resultado |
+
+---
+
+## ⚠️ Tratamento de Erros
+
+- ✅ Identificação de expressões inválidas
+- ✅ Verificação de divisão por zero
+- ✅ Tratamento de erros durante os cálculos
+
+---
+
+## 🎯 Objetivos do Projeto
+
+Este projeto foi desenvolvido para praticar:
+
+- Lógica de programação
+- Fundamentos do Python
+- Desenvolvimento de interfaces gráficas
+- Manipulação de dados
 - Tratamento de exceções
-- Criação e organização de interfaces gráficas
-- Eventos e comandos de botões
+- Organização e legibilidade do código
 
-## 🔮 Próximas melhorias
+---
 
-- [ ] Adicionar histórico de cálculos
-- [ ] Implementar porcentagens
-- [ ] Melhorar o design da interface
-- [ ] Adicionar suporte ao teclado físico
-- [ ] Permitir expressões matemáticas mais complexas
+## 🔮 Melhorias Futuras
+
+- Histórico de cálculos
+- Suporte a números negativos
+- Utilização do teclado físico
+- Cálculo de porcentagens
+- Melhorias no design
+- Atalhos de teclado
+- Suporte a expressões matemáticas mais complexas
 
 ---
 
@@ -82,8 +171,4 @@ Durante o desenvolvimento, trabalhei com:
 
 **Rafael Paccagnella**
 
-Estudante de Desenvolvimento de Sistemas, explorando Python e desenvolvendo projetos para aprimorar minhas habilidades em programação.
-
-\<p align="center">
-&#x20; ⭐ Se gostou do projeto, deixe uma estrela no repositório!
-\</p>
+Projeto desenvolvido para fins acadêmicos, com o objetivo de praticar Python e aprender a criar interfaces gráficas utilizando Tkinter.
